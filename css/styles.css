@@ -150,9 +150,7 @@ font-weight: 400;
 font-size: 14px;
 line-height: 1.71;
 }
-.footer-backgroud {
-background: #2F303A;
-}
+
 .contact {
 color: rgba(255, 255, 255, 0.6);
 font-style: normal;
@@ -297,7 +295,7 @@ letter-spacing: 0.03em;
 }
 .command .subtitle {
 margin: 0;
-padding-bottom: 10px;
+margin-bottom: 10px;
 
 font-weight: 500;
 font-size: 16px;
@@ -307,7 +305,6 @@ letter-spacing: 0.03em;
 }
 .command .text {
 margin: 0;
-
 
 font-size: 16px;
 line-height: 1.18;
@@ -387,17 +384,33 @@ clip: rect(0 0 0 0);
 clip-path: inset(50%);
 margin: -1px;
 }
-.footer {
+.footer-backgroud {
 padding-top: 60px;
 padding-bottom: 60px;
+
+background: #2F303A;
 }
-.footer .logo {
-margin-bottom: 20px;
-}
+
 .navigation {
 padding-top: 94px;
 padding-bottom: 94px;
 }
+.footer .footer-contact {
+display: flex;
+flex-direction: column;    
+}
+
+.footer-contact .item:nth-child(3n) {
+margin-bottom: 0;
+}
 .footer-contact .item {
-margin-top: 9px;
+margin-bottom: 9px;
+}
+.footer-contact {
+    margin-top: 20px;
+}
+
+
+img {
+display: block;
 }
