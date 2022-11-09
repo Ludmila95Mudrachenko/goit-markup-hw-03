@@ -6,7 +6,6 @@ color: #212121;
 
 
 .line-bg {
-background: #FFFFFF;
 border-bottom: solid 1px; color: #ECECEC;
 
 }
@@ -105,8 +104,8 @@ padding-top: 200px;
 padding-bottom: 200px;  
 }
 .text-hero {
-margin-top: 0px;
-margin-bottom: 30px;
+width: 696px;    
+margin: 0 auto 30px auto;
 
 font-weight: 900;
 font-size: 44px;
@@ -126,20 +125,19 @@ height:294px;
 padding: 10px 32px;
 min-width: 216px;
 
-
+font-family: inherit;
 background-color:#2196F3;
 border-radius: 4px;
 cursor: pointer;
 border: transparent;
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-}
-.text-btn { 
 text-align: center;
 font-weight: 700;
 font-size: 16px;
 line-height: 1.87;
 color: #FFFFFF;
 }
+
 .hero-btn:hover {
 background: #188CE8;
 }
@@ -321,6 +319,7 @@ display: block;
 .people .item {  
 width: 270px;
 margin-right: 30px;
+background: #FFFFFF;
 box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
 border-radius: 0px 0px 4px 4px;
 }
@@ -329,7 +328,9 @@ margin-right: 0;
 }
 .people .box {
 padding-top: 30px; 
-padding-bottom: 30px;   
+padding-bottom: 30px;
+
+
 }
 .portfolio {
 display: flex;
@@ -366,9 +367,10 @@ letter-spacing: 0.03em;
 color: #757575
 }
 .portfolio .box {
-border-left: solid 1px; color: #EEEEEE;
-border-bottom: solid 1px; color: #EEEEEE;
-border-right: solid 1px; color: #EEEEEE;
+border-left: solid 1px; 
+border-bottom: solid 1px; 
+border-right: solid 1px; 
+color: #EEEEEE;
 padding: 20px 24px;
 }
 
@@ -406,8 +408,8 @@ margin-bottom: 0;
 .footer-contact .item {
 margin-bottom: 9px;
 }
-.footer-contact {
-    margin-top: 20px;
+address {
+margin-top: 20px;
 }
 
 
